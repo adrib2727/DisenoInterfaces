@@ -7,13 +7,12 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Margenes y Paddings</title>
     <style>
-        .vertical{
+        
+        /*.vertical{
             background-color: lime;
             height: 100px;
         }
-        .row div{
-            height: 50px;
-        }
+       
         .amarillo{
             background-color: yellow;
         }
@@ -31,43 +30,47 @@
         }
         .verde_oscuro{
             background-color: green;
-        }
+        }*/
+        /*
+            .diminuto{
+            font-size: 0.2rem;
+            }
+            @media(min-width: 500px){
+                .diminuto{
+                    font-size: 0.4rem;
+                }
+            }
+            @media(min-width: 650px){
+                .diminuto{
+                    font-size: 0.7rem;
+                }
+            }
+            @media(min-width: 650px){
+                .diminuto{
+                    font-size: 0.7rem;
+                }
+            }
+        */
     </style>
 </head>
 <body>
-    <div class="container fluid">
-        <div class="col">
-            <!--
-            <p class="display-1">P con la clase display.</p>
-            <p class="display-2">P con la clase display.</p>
-            <p class="display-3">P con la clase display.</p>
-            <p class="display-4">P con la clase display.</p>
-            -->
-            <!--
-                <ul class="list-unstyled">
-                <li>Elemento</li>
-                <li>Elemento</li>
-                <li>Elemento</li>
-                <li>Elemento</li>
-                </ul>
-                <ul class="list-inline">
-                    <li class="list-inline-item">Elemento 2</li>
-                    <li class="list-inline-item">Elemento 2</li>
-                    <li class="list-inline-item">Elemento 2</li>
-                    <li class="list-inline-item">Elemento 2</li>
-                </ul>
-                <blockquote class="blockquote text-center">
-                    Calamardo tentaculos
-                    <footer class="blockquote-footer">@Bob Esponja</footer>
-                </blockquote>
-            -->
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-sm-3">
+                <img class="img-fluid" src="/home/adridaw2/Imágenes/gumball.png">
+            </div>
+            <div class="col-sm-9">
+                <p class="display-3">Imagen responsive</p>
+            </div>
+            
         </div>
-        <div class="col">
-            <h1>Lorem ipsum dolor, sit amet.</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Aut magnam eveniet ipsum quod odit quae eligendi vitae veniam distinctio suscipit.
-            </p>
-            <p class="h1">P con la clase H1</p>
+        <div class="row justify-content-center">
+            <div class="col-sm-6 mt-5">
+                <figure class="figure">
+                    <img class="img-fluid rounded" src="/home/adridaw2/Imágenes/anais.png">
+                    <figcaption class="figure-caption"></figcaption>
+                </figure>
+            </div>
         </div>
     </div>
 
